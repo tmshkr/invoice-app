@@ -1,0 +1,19 @@
+{
+  "name": "e2e",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ci": "npx playwright install --with-deps chromium && playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.4"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.40.1"
+  }
+}
